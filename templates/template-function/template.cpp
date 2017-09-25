@@ -1,10 +1,17 @@
 #include <iostream>
 
+/*
 int square(int x) {
 	return x*x;
 }
 
 double square(double x) {
+	return x*x;
+}
+*/
+
+template <typename T>
+T square(T x) {
 	return x*x;
 }
 
